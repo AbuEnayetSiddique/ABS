@@ -99,3 +99,6 @@ Kept the README.txt file from the previous application and added to this one.
 
 1427
 Changed Startup.cs, Added bootstrap.css file, Modified _Layout.cshtml file from the 1st part of Assignment
+
+1646
+Added 3 new projects
