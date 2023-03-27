@@ -102,3 +102,9 @@ Changed Startup.cs, Added bootstrap.css file, Modified _Layout.cshtml file from 
 
 1646
 Added 3 new projects.
+
+2023-03-27
+1251
+Started doing the last part of the Part1
+Installed Microsoft.EntityFrameworkCore.Relational and Core.SqlServer packages
+And Deleted the Migrations folder
