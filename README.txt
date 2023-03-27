@@ -97,8 +97,8 @@ I added three wrong projects and the application was not working.
 So, I started from the begining.
 Kept the README.txt file from the previous application and added to this one.
 
-1427
+1627
 Changed Startup.cs, Added bootstrap.css file, Modified _Layout.cshtml file from the 1st part of Assignment
 
 1646
-Added 3 new projects
+Added 3 new projects.
