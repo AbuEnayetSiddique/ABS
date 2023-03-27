@@ -106,5 +106,23 @@ Added 3 new projects.
 2023-03-27
 1251
 Started doing the last part of the Part1
-Installed Microsoft.EntityFrameworkCore.Relational and Core.SqlServer packages
+Installed Microsoft.EntityFrameworkCore.Relational and Core.SqlServer packages VERSION: 3.1.31 for both
 And Deleted the Migrations folder
+
+Installed Identity.EntityFrameworkCore VERSION: 3.1.31
+Modified the namespace and Deleted default Class1.cs file in all projects
+
+1435
+Moved Models in to AbusBooks.Models 
+Added Project Reference - .DataAccess and .Models
+
+Modify Startup.cs service ‘AddContext’ 
+
+Create a static details class called SD.cs in the Utility project and modified.
+Add project reference to the main project, and
+In the DataAccess project add project references t o Models and Utility
+
+Added Customers area to Areas and Moved the HomeController.cs
+Modified the _ViewStart.cshtml
+Added a new Admin area in Areas and deleted the Data and Models folder
+Deleted the Controllers folder
