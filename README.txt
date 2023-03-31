@@ -145,3 +145,4 @@ and IRepository.cs file and modified to be used on Category class.
 
 0202
 Added Repository.cs file and updated with given code
+Added CategoryRepository.cs and ICategoryRepository.cs file and updated
