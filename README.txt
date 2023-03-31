@@ -138,3 +138,6 @@ Added Migration
 0131
 Added Category.cs file
 and modified ApplicationDbContext.cs file
+
+Added Repository and IRepository folder 
+and IRepository.cs file and modified to be used on Category class.
