@@ -148,8 +148,12 @@ Added Repository.cs file and updated with given code
 Added CategoryRepository.cs and ICategoryRepository.cs file and updated
 
 0243
+Installed Nuget Packeges for Dapper- Version: 1.9.0
 Added ISP_Call.cs implemet file and modified
 Added SP_Call.cs class file
+	after adding the code getting an error in this file -- ExecuteScalar
+	tried to add using statement but did not work
+	tried with suggestion that shows when alt+enter is pressed but nothing changed.
 
 0410
 Added IUnitOfWork.cs implemet file
