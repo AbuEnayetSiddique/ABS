@@ -150,3 +150,7 @@ Added CategoryRepository.cs and ICategoryRepository.cs file and updated
 0243
 Added ISP_Call.cs implemet file and modified
 Added SP_Call.cs class file
+
+0410
+Added IUnitOfWork.cs implemet file
+Added UnitOfWork.cs class file
