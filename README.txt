@@ -162,3 +162,6 @@ Added UnitOfWork.cs class file
 0442
 change the Startup.cs file
 and added Category.Controller.cs coltroller
+
+0600
+having more errors in Category.Controller.cs (2errors) and Startup.cs (2 errors) files

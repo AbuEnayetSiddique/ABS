@@ -27,4 +27,9 @@
     <ProjectReference Include="..\AbusBooks.Utility\AbusBooks.Utility.csproj" />
   </ItemGroup>
 
+
+  <ItemGroup>
+    <Folder Include="Areas\Admin\Views\Category\" />
+  </ItemGroup>
+
 </Project>

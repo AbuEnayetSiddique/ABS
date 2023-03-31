@@ -8,9 +8,27 @@ namespace AbusBookStore.Areas.Admin.Controllers
 {
     public class CategoryController : Controller
     {
+        private readonly IUnitOfWork _unitOfwork;
+
+        public CategoryController(IUnitOfWork unitOfWork)
+        {
+            _unitOfwork = unitOfWork;
+        }
+
         public IActionResult Index()
         {
             return View();
         }
+
+        //APT calls here
+        #region API CALLS
+        [HttpGet]
+        public IActionResult GetAll()
+        {
+            //return NotFound();
+            var allObj = _unitOfwork.Category.GetAll();
+            return Json(new { data = allObj });
+        }
+        #endregion
     }
 }
