@@ -126,3 +126,8 @@ Added Customers area to Areas and Moved the HomeController.cs
 Modified the _ViewStart.cshtml
 Added a new Admin area in Areas and deleted the Data and Models folder
 Deleted the Controllers folder
+
+2023-03-31
+0106
+Built the Application and no error was found, the appliction run.
+Modified the appsetting.json file
