@@ -131,3 +131,6 @@ Deleted the Controllers folder
 0106
 Built the Application and no error was found, the appliction run.
 Modified the appsetting.json file
+
+Added Migration
+	and got migration named- 20230331051116_AddDefaultIdentityMigration
