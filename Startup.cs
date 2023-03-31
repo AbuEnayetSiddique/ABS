@@ -32,6 +32,7 @@ namespace AbusBookStore
                     Configuration.GetConnectionString("DefaultConnection")));
             services.AddDefaultIdentity<IdentityUser>() //options => options.SignIn.RequireConfirmedAccount = true
                 .AddEntityFrameworkStores<ApplicationDbContext>();
+            services.AddScoped<IUnitOfWork, UnitOfwork>();
             services.AddControllersWithViews();
             services.AddRazorPages();
         }
