@@ -134,3 +134,7 @@ Modified the appsetting.json file
 
 Added Migration
 	and got migration named- 20230331051116_AddDefaultIdentityMigration
+
+0131
+Added Category.cs file
+and modified ApplicationDbContext.cs file
