@@ -165,3 +165,9 @@ and added Category.Controller.cs coltroller
 
 0600
 having more errors in Category.Controller.cs (2errors) and Startup.cs (2 errors) files
+
+2023-04-06
+1438
+Tried to solve problems from Category.Controller.cs and Startup.cs files
+in CategoryController.cs file I had prboblem. 
+In line 30 I cahnged GetAll() to Getall() to solve error.

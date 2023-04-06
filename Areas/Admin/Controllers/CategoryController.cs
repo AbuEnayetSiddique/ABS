@@ -27,7 +27,7 @@ namespace AbusBookStore.Areas.Admin.Controllers
         public IActionResult GetAll()
         {
             //return NotFound();
-            var allObj = _unitOfwork.Category.GetAll();
+            var allObj = _unitOfwork.Category.Getall(); //GetAll() was there and having error
             return Json(new { data = allObj });
         }
         #endregion
