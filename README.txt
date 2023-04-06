@@ -161,7 +161,7 @@ Added UnitOfWork.cs class file
 
 0442
 change the Startup.cs file
-and added Category.Controller.cs coltroller
+and added CategoryController.cs coltroller
 
 0600
 having more errors in Category.Controller.cs (2errors) and Startup.cs (2 errors) files
@@ -171,3 +171,7 @@ having more errors in Category.Controller.cs (2errors) and Startup.cs (2 errors)
 Tried to solve problems from Category.Controller.cs and Startup.cs files
 in CategoryController.cs file I had prboblem. 
 In line 30 I cahnged GetAll() to Getall() to solve error.
+
+1529
+Added a new folder in the Areas/View with the same name as the Controller
+and Added a new ‘Index’ view to the folder and modified the code from the Category Index View.txt file 
